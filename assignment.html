@@ -2,58 +2,89 @@
 
 <html>
     <head>
-        <style>
-            body {
-                background-color: rgb(229, 239, 245);
-                padding: 80px;
-            }
-
-            .container {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-            }
-
-            .first-div, .container {
-                margin: 0 auto;
-                width: 80%;
-                height: 200px;
-                max-width: 800px;
-            }
-
-            .first-div {
-                background-color: lightpink;
-            }
-            .first-subdiv {
-                margin: 0 auto;
-                width: 78%;
-                height: 150px;
-                background-color: lightblue;
-            }
-            .second-div {
-                background-color: lightblue;
-            }
-            .third-div {
-                background-color: lightgreen;
-            }
-        </style>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="UTF-8">
+        <script defer="defer" src="/static/js/main.97ce389d.js"></script>
+        <title>Frontend Mentor clone | Single Price Grid Component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assignment.css">
     </head>
     <body>
-        <div class="first-div">
-            div1
-            <div class="first-subdiv">
-                div1b
+        <div class="container">
+            <div class="join-community">
+                <div class="section-container">
+                    <div>
+                        <h1 class="join-header">
+                            Join our community
+                        </h1>
+                    </div>
+                    <div>
+                        <h2 class="join-sub-header">
+                            30-day, hassle-free money back guarantee
+                        </h2>
+                    </div>
+                    <div class="join-paragraph-div">
+                        <p class="join-paragraph">
+                            Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="monthly-container">
+                    <div class="section-container">
+                        <div class="monthly-div-header">
+                            <h1 class="monthly-header">
+                                Monthly Subscription
+                            </h1>
+                        </div>
+                        <div class="monthly-price-div">
+                            <p class="monthly-price">$29</p> 
+                            <p class="payment-type">per month</p>
+                        </div>
+                        <p class="payment-details">
+                            Full access for less than $1 a day
+                        </p>
+                        <div class="signup-button">
+                            <button class="signup">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="whyUs-container">
+                    <div class="section-container">
+                        <h1 class="whyUs-header">
+                            Why Us
+                        </h1>
+                        <div class="lists">
+                            <li>
+                                <a href="#">Tutorials by industry experts</a>
+                            </li>
+                            <li>
+                                <a href="#">Peer & experts code review</a>
+                            </li>
+                            <li>
+                                <a href="#">Coding exercises</a>
+                            </li>
+                            <li>
+                                <a href="#">Access to our GitHub repos</a>
+                            </li>
+                            <li>
+                                <a href="#">Community forum</a>
+                            </li>
+                            <li>
+                                <a href="#">Flashcard decks</a>
+                            </li>
+                            <li>
+                                <a href="#">New videos every week</a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-            <div class="container">
-                <div class="second-div">
-                    div2
-                </div>
-                <div class="third-div">
-                    div3
-                </div>
-            </div>
-        
     </body>
 </html>
