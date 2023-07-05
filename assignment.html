@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(229, 239, 245);
+                padding: 80px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
+            .first-div, .container {
+                margin: 0 auto;
+                width: 80%;
+                height: 200px;
+                max-width: 800px;
+            }
+
+            .first-div {
+                background-color: lightpink;
+            }
+            .first-subdiv {
+                margin: 0 auto;
+                width: 78%;
+                height: 150px;
+                background-color: lightblue;
+            }
+            .second-div {
+                background-color: lightblue;
+            }
+            .third-div {
+                background-color: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="first-div">
+            div1
+            <div class="first-subdiv">
+                div1b
+            </div>
+        </div>
+        
+            <div class="container">
+                <div class="second-div">
+                    div2
+                </div>
+                <div class="third-div">
+                    div3
+                </div>
+            </div>
+        
+    </body>
+</html>
